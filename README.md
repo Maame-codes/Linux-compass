@@ -23,7 +23,7 @@ The application wraps the GitHub Copilot CLI agent in a Python-based workflow to
 
 You must have the following tools installed and configured:
 
-* **Python 3.x**
+* **Python 3.4 or the latest version**
 * **GitHub CLI (gh)**
 * **GitHub Copilot CLI Extension**: Install via `gh extension install github/gh-copilot`
 * **PowerShell 7**: Recommended for the best interactive experience on Windows.
@@ -64,3 +64,4 @@ Maame is a Computer Science student at Queen Mary University of London. Aspiring
 ## License
 
 This project is licensed under the MIT License.
+
