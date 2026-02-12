@@ -68,6 +68,7 @@ Start by asking a specific question about a Linux task you want to perform. The 
 Asking a Linux question:
 
 *Example: Asking how to create a new file and receiving multiple methods like `touch`, `echo`, and `cat`.*
+
 <img width="530" height="559" alt="Linux_compass00" src="https://github.com/user-attachments/assets/e823267e-7a89-4b5a-b09a-e0998820718d" />
 
 ### 2. Deep Dive & Documentation Sync
@@ -105,5 +106,6 @@ Maame is a Computer Science student at Queen Mary University of London. Aspiring
 ## License
 
 This project is licensed under the MIT License.
+
 
 
