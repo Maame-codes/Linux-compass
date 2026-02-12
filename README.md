@@ -51,6 +51,47 @@ Run the utility using the following command:
 3. **Synchronization**: Paste the verified command back into the script when prompted.
 4. **Review**: The tool will then provide a full explanation and save the session to your study log.
 
+## Features
+
+- **Instant Command Discovery:** Ask natural language questions about Linux tasks and receive a variety of command options.
+- **Educational Breakdowns:** Get detailed explanations of specific commands, including flags and syntax.
+- **Cross-Platform Support:** Provides PowerShell alternatives for Windows users to achieve similar results.
+- **Automated Study Logging:** Automatically syncs your learned commands into a Markdown study log for future review.
+
+## How It Works
+
+The following workflow demonstrates how Linux Compass guides you from a question to a documented study entry.
+
+### 1. Identify a Learning Goal
+Start by asking a specific question about a Linux task you want to perform. The AI agent analyzes your request and suggests the most common and effective commands. 
+
+Asking a Linux question:
+
+*Example: Asking how to create a new file and receiving multiple methods like `touch`, `echo`, and `cat`.*
+<img width="530" height="559" alt="Linux_compass00" src="https://github.com/user-attachments/assets/e823267e-7a89-4b5a-b09a-e0998820718d" />
+
+### 2. Deep Dive & Documentation Sync
+Once you select a command to learn, the tool generates a "Documentation Sync" step. This provides a thorough breakdown of the command's function and provides alternatives for different environments (like Windows PowerShell).
+
+Command breakdown and sync
+*Example: A detailed explanation of the `touch` command and its PowerShell equivalent, `New-Item`.*
+
+<img width="538" height="492" alt="Linux_compass01" src="https://github.com/user-attachments/assets/9853634a-543b-42ea-8383-53531cd2733f" />
+
+### 3. Automatic Study Log Generation
+The final step in the process is the creation of a study entry. The tool automatically updates your `LINUX_STUDY_LOG.md` file with the date, your specific goal, and the command you mastered during the session.
+
+Automated study log entry
+*Example: The generated study log in VS Code showing the session details and the learned command.*
+
+<img width="533" height="304" alt="Linux_compass03" src="https://github.com/user-attachments/assets/56aacbb2-e1ee-4c9c-ab6d-4f2c3308812e" />
+
+## Getting Started
+
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/Maame-codes/Linux-compass.git](https://github.com/Maame-codes/Linux-compass.git)
+
 ## Project Files
 
 * **compass.py**: The primary Python application logic.
@@ -64,4 +105,5 @@ Maame is a Computer Science student at Queen Mary University of London. Aspiring
 ## License
 
 This project is licensed under the MIT License.
+
 
